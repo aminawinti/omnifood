@@ -1,10 +1,8 @@
-///////////////////////////////////////////////////////////
 // Set current year in footer
 const yearEl = document.querySelector('.year');
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
-///////////////////////////////////////////////////////////
 // Make mobile navigation work
 const btnNavEl = document.querySelector('.btn-mobile-nav');
 const headerEl = document.querySelector('.header');
@@ -13,7 +11,6 @@ btnNavEl.addEventListener('click', function () {
   headerEl.classList.toggle('nav-open');
 });
 
-///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 const allLinks = document.querySelectorAll('a:link');
 
@@ -41,7 +38,6 @@ allLinks.forEach(function (link) {
   });
 });
 
-///////////////////////////////////////////////////////////
 // Sticky navigation
 const sectionHeroEl = document.querySelector('.section-hero');
 
@@ -66,7 +62,6 @@ const obs = new IntersectionObserver(
 );
 obs.observe(sectionHeroEl);
 
-///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement('div');
@@ -84,61 +79,3 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add('no-flexbox-gap');
 }
 checkFlexGap();
-
-///////////////////////////////////////////////////////////
-// polyfill library to implement smoothscroll in Safari
-// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
-
-///////////////////////////////////////////////////////////
-// Fixing flexbox gap property - add to queries.css
-// already fixed in newest versions, but doesn't hurt anyway !
-/*
-.no-flexbox-gap .main-nav-list li:not(:last-child) {
-  margin-right: 4.8rem;
-}
-
-.no-flexbox-gap .list-item:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.no-flexbox-gap .list-icon:not(:last-child) {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .delivered-faces {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .meal-attribute:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-.no-flexbox-gap .meal-icon {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .footer-row div:not(:last-child) {
-  margin-right: 6.4rem;
-}
-
-.no-flexbox-gap .social-links li:not(:last-child) {
-  margin-right: 2.4rem;
-}
-
-.no-flexbox-gap .footer-nav li:not(:last-child) {
-  margin-bottom: 2.4rem;
-}
-
-@media (max-width: 75em) {
-  .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 3.2rem;
-  }
-}
-
-@media (max-width: 59em) {
-  .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 4.8rem;
-  }
-}
-*/

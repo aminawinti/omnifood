@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
@@ -27,18 +27,18 @@
 }
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #63954b;
 }
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  background-color: #e67e22;
+  background-color: #4f773c;
   color: #fff;
   border-radius: 9px;
   padding: 1.2rem 2.4rem;
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #63954b;
 }
 .btn-mobile-nav {
   border: none;
@@ -70,7 +70,7 @@
   margin-top: 9.6rem;
 }
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
@@ -104,7 +104,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.2rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #eff4ed;
 }
 .delivered-imgs img:last-child {
   margin: 0;
@@ -114,7 +114,7 @@
   font-weight: 600;
 }
 .delivered-text span {
-  color: #cf711f;
+  color: #63954b;
   font-weight: 700;
 }
 .section-featured {
@@ -170,13 +170,13 @@
 .step-img-box::before {
   width: 60%;
   padding-bottom: 60%;
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   z-index: -2;
 }
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #e0eadb;
   z-index: -1;
 }
 .step-img {
@@ -242,7 +242,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #4f773c;
 }
 .meal-img {
   width: 100%;
@@ -252,7 +252,7 @@
   font-size: 1.8rem;
 }
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -306,11 +306,11 @@
 }
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #eff4ed;
   padding: 4.6rem;
 }
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -323,8 +323,8 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #333;
-  background-color: #ffd43b;
+  color: #fff;
+  background-color: #00aead;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -333,7 +333,7 @@
   margin-bottom: 4.8rem;
 }
 .plan-name {
-  color: #cf711f;
+  color: #63954b;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -366,10 +366,10 @@
   text-align: center;
 }
 .feature-icon {
-  color: #e67e22;
+  color: #4f773c;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -392,12 +392,12 @@
   grid-template-columns: 2fr 1fr;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #92b581, #4f773c);
   overflow: hidden;
 }
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #45260a;
+  color: #fff;
 }
 .cta .heading-secondary {
   color: inherit;
@@ -411,8 +411,8 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
+      rgba(146, 181, 129, 0.25),
+      rgba(79, 119, 60, 0.25)
     ),
     url('../img/eating.jpg');
   background-size: cover;
@@ -438,7 +438,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fdf2e9;
+  background-color: #eff4ed;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
